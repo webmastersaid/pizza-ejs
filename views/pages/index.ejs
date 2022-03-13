@@ -2,13 +2,180 @@
 <html>
 
 <head>
-  <%- include ("../partials/header.ejs") %>
+  <%- include("../partials/header.ejs") %>
 </head>
 
 <body>
+  <header>
+    <nav>
+      <div class="nav-wrapper red lighten-1">
+        <a href="#" class="brand-logo"><i class="material-icons">local_pizza</i>Mama Mia Pizza Str</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#"><i class="material-icons left">home</i>Главная</a>
+          </li>
+          <li>
+            <a href="#"><i class="material-icons left">ramen_dining</i>Меню</a>
+          </li>
+          <li>
+            <a href="#"><i class="material-icons left">install_mobile</i>Приложение</a>
+          </li>
+          <li>
+            <a href="#"><i class="material-icons left">contact_page</i>Контакты</a>
+          </li>
+          <li>
+            <a href="#"><i class="material-icons left">shopping_basket</i>Корзина</a>
+          </li>
+          <li>
+            <a href="#"><i class="material-icons left">login</i>Войти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <h1>Mama Mia Pizza API</h1>
-
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <div class="background grey darken-4">
+            <img class="responsive-img" src="/images/background.jpg" />
+          </div>
+          <a href="#"><img class="circle" src="/icon/favicon.png" /></a>
+          <a href="#"><span class="white-text name">John Doe</span></a>
+          <a href="#"><span class="white-text email">johndoe@gmail.com</span></a>
+        </div>
+      </li>
+      <li>
+        <a href="#"><i class="material-icons left">home</i>Главная</a>
+      </li>
+      <li>
+        <a href="#"><i class="material-icons left">ramen_dining</i>Меню</a>
+      </li>
+      <li>
+        <a href="#"><i class="material-icons left">install_mobile</i>Приложение</a>
+      </li>
+      <li>
+        <a href="#"><i class="material-icons left">contact_page</i>Контакты</a>
+      </li>
+      <li>
+        <a href="#"><i class="material-icons left">shopping_basket</i>Корзина</a>
+      </li>
+      <li>
+        <a href="#"><i class="material-icons left">login</i>Войти</a>
+      </li>
+    </ul>
+  </header>
+  <main class="container">
+    <section>
+      <article>
+        <h1>Добро пожаловать, гость!</h1>
+        <div class="carousel">
+          <a class="carousel-item" href="#">
+            <img class="circle" src="/images/slides/cheese.jpg" alt="Батырская" />
+            <div class="center">Батырская</div>
+          </a>
+          <a class="carousel-item" href="#">
+            <img class="circle" src="/images/slides/spasy.jpg" alt="Спайси" />
+            <div class="center">Спайси</div>
+          </a>
+          <a class="carousel-item" href="#">
+            <img class="circle" src="/images/slides/marinara.jpg" alt="Маринара" />
+            <div class="center">Маринара</div>
+          </a>
+          <a class="carousel-item" href="#">
+            <img class="circle" src="/images/slides/margarita.jpg" alt="Маргарита" />
+            <div class="center">Маргарита</div>
+          </a>
+          <a class="carousel-item" href="#">
+            <img class="circle" src="/images/slides/season.jpg" alt="4 Сезона" />
+            <div class="center">4 Сезона</div>
+          </a>
+        </div>
+      </article>
+      <article class="center-align">
+        <h2>Галерея</h2>
+        <p></p>
+          <div class="row justify-content-center card">
+            <div class="col p-3 center-block">
+              <img class="materialboxed circle" width="200" src="/images/slides/batyrskaya.jpg" alt="Батырская" />
+              <p>Батырская</p>
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/cheese.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/puleze.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/derevenskaya.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/kaprichoza.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/margarita.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/season.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/marinara.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/neopoletano.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/spasy.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/ohotnichya.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/pepperoni.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/prushotto.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/nutella.jpg" />
+            </div>
+            <div class="col p-3">
+              <img class="materialboxed circle" width="200" src="/images/slides/cherry.jpg" />
+            </div>
+          </div>
+      </article>
+    </section>
+  </main>
+  <footer class="page-footer red lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Mama Mia Pizza Str</h5>
+          <p class="grey-text text-lighten-4">Сайт для заказа еды</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Навигация</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#">Главная</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Меню</a></li>
+            <li>
+              <a class="grey-text text-lighten-3" href="#">Приложение</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="#">Контакты</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Корзина</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Вход</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2022 Mama Mia Pizza Str
+        <a class="grey-text text-lighten-4 right" href="https://mama-mia-pizza-str.web.app/">Больше</a>
+      </div>
+    </div>
+  </footer>
+  <%- include("../partials/footer.ejs") %>
 </body>
 
 </html>
