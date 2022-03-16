@@ -1,0 +1,34 @@
+<%- include("../../partials/header.ejs") %>
+    <main class="container">
+        <section>
+            <article>
+                <header>
+                    <h1 class="fs-1">Профиль</h1>
+                    <small>страница профиля</small>
+                </header>
+                <div>
+                    <div class="card">
+                        <div class="card-image">
+                            <div class="background background-profile"></div>
+                            <span class="card-title name">John Doe</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                    class="material-icons">edit</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="email">johndoe@gmail.com</span>
+                            <p>О себе</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn waves-effect red waves-light" type="submit" name="action">
+                                Удалить профиль
+                            </button>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">
+                                Выйти
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <%- include("../../partials/footer.ejs") %>

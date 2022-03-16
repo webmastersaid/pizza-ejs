@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   min-height: 100vh;
@@ -9,4 +10,16 @@ main {
 .material-placeholder {
     display: flex;
     justify-content: center;
+}
+.background-profile {
+  height: 240px;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+.background-auth {
+  background-image: url(../images/pizza/margarita.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
